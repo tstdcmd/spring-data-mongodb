@@ -89,7 +89,7 @@ import org.springframework.data.mongodb.MongoDatabaseFactory;
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ ElementType.FIELD })
+@Target({ ElementType.FIELD, ElementType.ANNOTATION_TYPE })
 @Reference
 public @interface DocumentReference {
 
